@@ -29,7 +29,7 @@ public class ManagerHomeServlet extends HttpServlet {
         Manager manager = (Manager) session.getAttribute("manager");
         request.setAttribute("manager", manager);
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/home.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/HomeScreen.jsp").forward(request, response);
     }
     
     @Override

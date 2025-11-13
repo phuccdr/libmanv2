@@ -51,7 +51,7 @@ public class RegisterLibraryCardServlet extends HttpServlet {
         
         Reader reader = (Reader) session.getAttribute("reader");
         
-        request.getRequestDispatcher("/WEB-INF/views/reader/register-card.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/reader/RegisterLibraryCardScreen.jsp").forward(request, response);
     }
     
     /**
@@ -123,7 +123,7 @@ public class RegisterLibraryCardServlet extends HttpServlet {
             request.setAttribute("errorMessage", "Có lỗi xảy ra: " + e.getMessage());
         }
         
-        request.getRequestDispatcher("/WEB-INF/views/reader/register-card.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/reader/RegisterLibraryCardScreen.jsp").forward(request, response);
     }
 }
 

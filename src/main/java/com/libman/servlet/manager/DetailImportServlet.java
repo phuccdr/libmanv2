@@ -62,7 +62,7 @@ public class DetailImportServlet extends HttpServlet {
             request.setAttribute("errorMessage", "Có lỗi xảy ra: " + e.getMessage());
         }
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/detail-import.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/DetailImportScreen.jsp").forward(request, response);
     }
     
     @Override

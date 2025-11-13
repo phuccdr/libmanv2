@@ -39,7 +39,7 @@ public class SupplierStatisticsServlet extends HttpServlet {
             return;
         }
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/supplier-statistics.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/SupplierStatisticsScreen.jsp").forward(request, response);
     }
     
     /**
@@ -100,7 +100,7 @@ public class SupplierStatisticsServlet extends HttpServlet {
         request.setAttribute("startDate", startDateStr);
         request.setAttribute("endDate", endDateStr);
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/supplier-statistics.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/SupplierStatisticsScreen.jsp").forward(request, response);
     }
 }
 

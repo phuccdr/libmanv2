@@ -25,7 +25,7 @@ public class ChooseTypeStatisticsServlet extends HttpServlet {
             return;
         }
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/choose-statistics.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/ChooseTypeStatisticsScreen.jsp").forward(request, response);
     }
     
     @Override

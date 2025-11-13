@@ -29,7 +29,7 @@ public class ReaderHomeServlet extends HttpServlet {
         Reader reader = (Reader) session.getAttribute("reader");
         request.setAttribute("reader", reader);
         
-        request.getRequestDispatcher("/WEB-INF/views/reader/home.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/reader/HomeScreen.jsp").forward(request, response);
     }
     
     @Override

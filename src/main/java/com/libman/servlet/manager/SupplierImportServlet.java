@@ -79,7 +79,7 @@ public class SupplierImportServlet extends HttpServlet {
             request.setAttribute("errorMessage", "Có lỗi xảy ra: " + e.getMessage());
         }
         
-        request.getRequestDispatcher("/WEB-INF/views/manager/supplier-import.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/views/manager/SupplierImportScreen.jsp").forward(request, response);
     }
     
     @Override
